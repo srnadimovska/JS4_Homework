@@ -1,0 +1,22 @@
+#dogs {
+    
+    width: 1000px;
+    height: 500px;
+}
+
+.card {
+
+background-color: blueviolet;
+font-family: sans-serif;
+border-radius: 15px;
+padding: 10px 10px;
+margin: 10px 10px;
+}
+
+#post {
+    
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:50px;
+       
+}
